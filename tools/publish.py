@@ -49,7 +49,8 @@ def save_state(s):
 
 
 def publish_one(rec, uid, token, base_url):
-    image_url = f"{base_url.rstrip('/')}/{rec['file']}"
+    # posters may sit at the repository root or inside posters/ ; the file name is what matters
+    image_url = f"{base_url.rstrip('/')}/{os.path.basename(rec['file'])}"
     c = http('POST', f'{API}/{uid}/media', dict(image_url=image_url, caption=rec['caption'],
                                                 alt_text=rec['alt'], access_token=token))
     cid = c['id']

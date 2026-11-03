@@ -438,5 +438,12 @@
  "84": {
   "status": "skipped_late",
   "at": "2026-11-03T03:40:23.443387+00:00"
- }
+ },
+ "85": {
+  "status": "skipped_late",
+  "at": "2026-11-03T11:24:15.839196+00:00"
+ },
+ "86_err": [
+  "HTTP 400 on POST https://graph.instagram.com/v21.0/17841422395141431/media: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't m"
+ ]
 }

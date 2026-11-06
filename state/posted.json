@@ -508,5 +508,8 @@
   "status": "posted",
   "media_id": "18111696800149598",
   "at": "2026-11-06T08:32:48.467102+00:00"
- }
+ },
+ "98_err": [
+  "HTTP 400 on POST https://graph.instagram.com/v21.0/17841422395141431/media_publish: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publis"
+ ]
 }
